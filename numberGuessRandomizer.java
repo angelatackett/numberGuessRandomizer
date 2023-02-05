@@ -19,10 +19,10 @@ public class numberGuessRandomizer {
     // compares input to random generated number
     while (num > 0){
         if (num == randNum) {
-            System.out.print("HOLY SMOKES, YOU GOT IT!");
+            System.out.print("\nHOLY SMOKES, YOU GOT IT!");
             break;
         } else if (num != randNum) {
-            System.out.println("Guess again, my incorrect friend!");
+            System.out.println("\nGuess again, my incorrect friend!\n");
             System.out.print("What number am I thinking of (1 - 10)? ");
             num = in.nextInt();
         }
